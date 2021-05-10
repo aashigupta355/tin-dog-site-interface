@@ -1,0 +1,155 @@
+.container-fluid {
+  padding: 3% 15%;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* navigation-bar */
+.nav-link {
+  font-size: 1.2rem;
+  margin: 5px 25px 0px;
+  font-weight: lighter;
+}
+h1 {
+  font-family: "Montserrat-Black";
+  line-height: 1.5;
+  font-size: 3.5rem;
+  margin: 10px 120px 30px 0px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* downloaded images */
+.download-button {
+  margin: 6px 6px 0px 0px;
+}
+
+/* Title image */
+.title-image {
+  position: relative;
+  width: 60%;
+  transform: rotate(30deg);
+  top: 150px;
+  left: 110px;
+}
+
+/* Features */
+#features {
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+}
+.row {
+  margin: 100px auto 0px;
+}
+.icon {
+  text-align: center;
+  margin-bottom: 3%;
+  color: #ff8882;
+  width: 98%;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+h3 {
+  text-align: center;
+  padding: 10px auto 25px auto;
+  font-weight: bolder;
+}
+#features p {
+  text-align: center;
+  margin: auto 150px 3%;
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  margin-top: 400px;
+}
+#testimonials h2 {
+  font-family: "Montserrat-Black";
+  line-height: 1.5;
+  font-size: 2.5rem;
+  padding: 3% 20%;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  color: white;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin-bottom: 6%;
+}
+em {
+  color: #fff;
+}
+
+/* Press */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px 20px;
+}
+
+/* Pricing */
+.price-button {
+  width: 100%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-columns {
+  padding: 2% 3%;
+}
+
+/* media querires */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #testimonials {
+    margin-top: 600px;
+  }
+}
+
+/* Call to action */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+#cta h3 {
+  color: white;
+  /* margin: auto 250px; */
+  font-weight: bolder;
+  padding: auto auto 20px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 7% 15%;
+}
+.media {
+  margin: auto 10px;
+}
